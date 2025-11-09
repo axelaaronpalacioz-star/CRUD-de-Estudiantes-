@@ -4,7 +4,7 @@
 <div class="max-w-5xl mx-auto">
     <div class="flex justify-between items-center mb-4">
         <h1 class="text-2xl font-bold">Lista de Estudiantes</h1>
-        <a href="{{ route('students.create') }}" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Nuevo Estudiante</a>
+        <a href="{{ route('students.create') }}" class="bg-cyan-500 text-white px-4 py-2 rounded hover:bg-cyan-700">Nuevo Estudiante</a>
     </div>
 
     <table class="min-w-full bg-white shadow rounded-lg">
@@ -27,12 +27,12 @@
                 <td class="py-2 px-4">{{ $student->career->name }}</td>
                 <td class="py-2 px-4">{{ $student->semester }}</td>
                 <td class="py-2 px-4 text-center space-x-2">
-                    <a href="{{ route('students.show', $student->id) }}" class="bg-green-500 text-white px-2 py-1 rounded hover:bg-green-600">Ver</a>
-                    <a href="{{ route('students.edit', $student->id) }}" class="bg-yellow-400 text-white px-2 py-1 rounded hover:bg-yellow-500">Editar</a>
+                    <a href="{{ route('students.show', $student->id) }}" class="bg-green-600 text-white px-2 py-1 rounded hover:bg-green-700">Ver</a>
+                    <a href="{{ route('students.edit', $student->id) }}" class="bg-yellow-500 text-white px-2 py-1 rounded hover:bg-yellow-600">Editar</a>
                     <form action="{{ route('students.delete', $student->id) }}" method="POST" class="inline">
                         @csrf
                         @method('DELETE')
-                        <button onclick="return confirm('¿Eliminar estudiante?')" class="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600">Eliminar</button>
+                        <button onclick="return confirm('¿Eliminar estudiante?')" class="bg-red-600 text-white px-2 py-1 rounded hover:bg-red-700">Eliminar</button>
                     </form>
                 </td>
             </tr>

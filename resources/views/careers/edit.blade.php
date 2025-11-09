@@ -12,13 +12,13 @@
             <label class="block font-semibold mb-1">Nombre</label>
             <input type="text" name="name" class="w-full border rounded p-2" value="{{ old('name', $career->name) }}" required>
             @error('name')
-                <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                <p class="text-red-600 text-sm mt-1">{{ $message }}</p>
             @enderror
         </div>
 
         <div class="flex justify-between">
             <a href="{{ route('careers.index') }}" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">Volver</a>
-            <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Actualizar</button>
+            <button type="submit" class="bg-cyan-600 text-white px-4 py-2 rounded hover:bg-cyan-700">Actualizar</button>
         </div>
     </form>
 </div>

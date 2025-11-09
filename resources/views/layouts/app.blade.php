@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <nav class="bg-blue-600 text-white p-4 flex justify-between">
+    <nav class="bg-cyan-800 text-white p-4 flex justify-between">
         <div class="font-bold text-lg">CRUD de Estudiantes</div>
         <div class="space-x-4">
             <a href="{{ route('students.index') }}" class="hover:underline">Estudiantes</a>
