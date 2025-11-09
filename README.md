@@ -1,3 +1,13 @@
+## Autor
+
+Nombre: Axel Aaon Palacios Hernandez
+Carrera: TIC´s
+Correo: 23150311@aguascalientes.tecnm.mx
+
+### GitHub
+https://github.com/axelaaronpalacioz-star/CRUD-de-Estudiantes-
+
+
 # Laravel CRUD - Students & Careers
 
 Este proyecto es una aplicación desarrollada en **Laravel 11** que implementa un CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar **estudiantes** y **carreras universitarias**.
@@ -28,8 +38,3 @@ Este proyecto es una aplicación desarrollada en **Laravel 11** que implementa u
 - Agregar una nueva carrera.
 - Editar y actualizar una carrera existente.
 - Eliminar carreras.
-
----
-
-### GitHub
-https://github.com/axelaaronpalacioz-star/CRUD-de-Estudiantes-
